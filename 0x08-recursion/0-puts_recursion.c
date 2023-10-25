@@ -1,6 +1,8 @@
 #include<stdio.h>
 #include"main.h"
 
+    /// @brief 
+    /// @param str 
     void _puts_recursion(char *str)
     {
         if(*str=='\0')
