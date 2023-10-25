@@ -4,7 +4,7 @@
 /**
   * _puts_recursion - main function
   *
-  * @s: function parameter
+  * @str: function parameter
   *
   * Return: Always 0.
   */
