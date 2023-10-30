@@ -1,6 +1,8 @@
 #include<stdio.h>
 /*
-main function prints argv[]
+ *main - function prints argv[]
+ * @argc : int
+ * @argv : list
 */
 
 int main(int argc , char* argv[])
