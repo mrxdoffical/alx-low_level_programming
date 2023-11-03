@@ -1,7 +1,5 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include"main.h"
-
+#include <stdlib.h>
+#include "main.h"
 
 /**
  * *malloc_checked - allocates memory using malloc
@@ -9,14 +7,14 @@
  *
  * Return: a pointer to the allocated memory
  */
-
 void *malloc_checked(unsigned int b)
 {
-	int *c = malloc(b);
+	void *point;
 
-	if (m == 0)
-	{
+	point = malloc(b);
+
+	if (point == NULL)
 		exit(98);
-	}
-	return (c);
+
+	return (point);
 }
