@@ -1,12 +1,12 @@
 #include<stdio.h>
 
 /**
- * @brief This is the main function in C that prints the name of the source file and returns 0.
+ * main - This is the main function in C
  *
- * @return int Returns 0 to indicate successful execution.
+ * Return: always 0
  */
-int main()
+int main(void)
 {
-    printf("%s\n",__FILE__);
-    return(0);
+	printf("%s\n", __FILE__);
+	return (0);
 }
