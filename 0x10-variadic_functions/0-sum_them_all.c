@@ -11,7 +11,7 @@
  */
 int sum_them_all(const unsigned int n, ...)
 {
-	unsigned int sum = 0 ;
+	unsigned int sum = 0;
 
 	unsigned int i = n;
 
@@ -19,10 +19,10 @@ int sum_them_all(const unsigned int n, ...)
 
 	va_start(list, n);
 
-	if(!n)
-	return(0);
+	if (!n)
+	return (0);
 
-	while(i--)
+	while (i--)
 		sum += va_arg(list, unsigned int);
 
 	va_end(list);
