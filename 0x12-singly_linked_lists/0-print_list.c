@@ -1,4 +1,9 @@
 #include"lists.h"
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+#include<stddef.h>
+
 
 /**
  * _strlen - prints string size
@@ -30,7 +35,7 @@ size_t print_list(const list_t *h)
 	while (h)
 	{
 	printf("[%d] %s\n", _strlen(h->str), h->str ? h->str : "(nill)");
-	h = h->next
+	h = h->next;
 	i++;
 	}
 	return (i);

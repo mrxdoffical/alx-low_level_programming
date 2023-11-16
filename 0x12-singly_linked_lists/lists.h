@@ -1,9 +1,9 @@
 #ifndef _LISTS_H_
 #define _LISTS_H_
 #include<stdio.h>
-#include<stddlib.h>
+#include<stdlib.h>
 #include<string.h>
-
+#include<stddef.h>
 /**
  * struct node - single linked list
  * @str: string
@@ -11,7 +11,7 @@
  * @next: pointer to the next node
 */
 
-
+int _putchar(char c);
 size_t print_list(const list_t *h);
 
 typedef struct lists_s {
