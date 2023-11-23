@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include"main.h"
 /**
- * binry_to_uint - turns binary to unsigned int
+ * binary_to_uint - turns binary to unsigned int
  * @b: const character
  * Return: return u int
 */
