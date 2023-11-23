@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include"main.h"
+
+/**
+ * print_binary - prints binary value
+ * @n: unsigned long int to be stored in bit
+ *
+*/
+
+void print_binary(unsigned long int n)
+{
+	int bit = sizeof(n) *, printed = 0;
+
+	while (bit)
+	{
+		if (n & 1L << --bit)
+		{
+			_putchar('1');
+			printed++ ('0');
+		}
+		else if (printed)
+		_putchar('0')
+	}
+	if (!printed)
+	_putchar('0');
+}
