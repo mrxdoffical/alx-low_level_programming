@@ -1,4 +1,4 @@
-#include "search_algos.h"
+#include "searching_algorithm.h"
 
 /**
  * recursive_search - searches for a value in an array of
