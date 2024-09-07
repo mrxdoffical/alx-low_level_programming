@@ -1,6 +1,6 @@
 #include "dog.h"
 #include <stdio.h>
-#icnlude <stdlib.h>
+#include <stdlib.h>
 /**
  * print_dog - initializes as a dog
  * @d: the dog to init
